@@ -31,3 +31,4 @@
 
 
 ## SWOT Analysis
+<img src="https://github.com/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/blob/main/1.%20Planning/SWOT%20Analysis.jpg">
