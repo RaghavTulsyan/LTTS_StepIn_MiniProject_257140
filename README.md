@@ -17,14 +17,7 @@ Folder              | Description
 
 SF. ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 --------|---------|----------------|----------------|---------------|-------------|--------------
-257140  | Raghav Tulsyan | Feature X, Y etc    | X No     | X No   |X No   |X No       
-
-## Challenges Faced and How Was It Overcome
-
-1. xyz
-2. pqr
-3. ...
-4. ...
+257140  | Raghav Tulsyan | Feature X, Y etc    |  No     |  No   | No   | No       
 
 ## Learning Resources
 1. [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
