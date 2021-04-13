@@ -1,7 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include "calculator.h"
+#include "header.h"
 
 int mortgage(){
     int principal;
@@ -42,6 +41,7 @@ int mortgage(){
     }
 
     float mortgage = principal * (monthlyInterest * pow(1 + monthlyInterest, numberOfPayments)) / (pow(1 + monthlyInterest, numberOfPayments) - 1);
+
     printf("\n");
     printf("MORTGAGE\n");
     printf("--------\n");
@@ -54,4 +54,5 @@ int mortgage(){
         printf("\n %d. %.2f\n",i, balance);
     }
     return 0;
+
 }

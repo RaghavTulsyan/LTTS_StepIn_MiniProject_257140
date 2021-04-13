@@ -1,59 +1,39 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "calculator.h"
+#include<math.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include "header.h"
 
-float loanAmount,interestRate,Discount,i,loanPayment; //global variables
+float principal;
+float annualInterestRate;
 int years;
 
-void loanDetails(void); //input from user regarding the loan
-float annualRate(void);// interest rate 
-float discount(void); //discount to be added
+void details();
+float discount(float annualInterestRate, int years);
 
-int loan() //main
-{
-
-    loanDetails(); //called three functions
-    annualRate();
-    discount();
-
-    loanPayment = (loanAmount)/(Discount); //formula for monthly payments
-
-    printf("\nThe Monthly Loan Payment is %.2f\n",loanPayment);
+int loan(){
+    details();
+    float Discount = discount(annualInterestRate, years);
+    float loanPaymentAmount = (principal)/(Discount);
     printf("\n");
+    printf("Loan Details\n");
+    printf("------------\n");
+    printf("\nDiscount: %.2f\n",Discount);
+    printf("\nMonthly Loan Payment: %.2f\n",loanPaymentAmount);
+
     return 0;
-
 }
 
-void loanDetails(void) //taking input from user
-{
-    printf("\nPlease Enter Total Loan Amount: ");
-    scanf("%f",&loanAmount);
-    printf("\nPlease Enter the Number of Years: ");
+void details(){
+    printf("\nLoan Amount: ");
+    scanf("%f",&principal);
+    printf("\nPeriod (Years): ");
     scanf("%d",&years);
-    printf("\nPlease Enter the Annual Rate to be Applied: ");
-    scanf("%f",&interestRate);
+    printf("\nAnnual interest Rate: ");
+    scanf("%f",&annualInterestRate);
 }
 
-float annualRate(void) //calculated annual rate
-{
-    float *ann;
-    ann = &interestRate;
-    i = ((*ann)/(100))/12;
-    printf("\nThe Value for %d Years is %.2f\n",years,i);
-    return i;
-}
-
-float discount(void) //calculated dicount
-{    
-    float *x,y;
-    x = &i;
-    y = 1 + *x;
-    int n = years*12;
-
-    float topD = (pow((y),n)-1);
-    float botD = (y-1)*pow((y),n);
-    Discount = topD/botD;
-    printf("\nThe Value of Discount is : %.2f\n",Discount);
-    return Discount;
+float discount(float annualInterestRate, int years){
+    float i = ((annualInterestRate)/(100))/12;
+    int months = years*12;
+    return (pow((1+i),months)-1) / ((i)*pow((1+i),months));
 }
