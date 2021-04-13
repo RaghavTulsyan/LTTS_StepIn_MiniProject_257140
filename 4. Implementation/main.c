@@ -37,5 +37,4 @@ int main(){
         printf("\nThank You for using our Calculator!\n");
     }
     return 0;
-} 
-//gcc mortgage.c loan.c main.c header.h
+}
