@@ -15,6 +15,9 @@
 - The cost of developing this is negligible and there is no need of some hardware or any paid softwares yet.
 - Features include the calculation of Mortgage, its monthly payment schedule and loan repayment amount given the Principal Amount, Annual Interest Rate and Time.
 
+## Defining the System
+<img src="https://github.com/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/blob/main/1_Requirements/System_Architecture.jpg">
+
 ## SWOT Analysis
 <img src="https://github.com/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/blob/main/1_Requirements/SWOT%20Analysis.jpg">
 
