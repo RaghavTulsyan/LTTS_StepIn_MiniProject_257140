@@ -1,8 +1,4 @@
 # Debt Payment Calculator
-## Introduction
-- This Debt Payment Calculator comprises of two different type of debt calculation : Mortgage and Loan.
-- By using this calculator, the user will be able to calculate the Mortgage Amount, Monthly Payment Schedule and Loan Repayment Amounts.
-- This can prove to be useful for people who need to calculate their mortgage amount and need to know more about their payment schedules and loan repayment amount.
 
 ## Folder Structure
 Folder              | Description
