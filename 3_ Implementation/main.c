@@ -30,7 +30,18 @@ int main(){
         printf("\nLoan Calculator\n");
         printf("---------------");
         printf("\n");
-        loan();
+
+        float principal;
+        float annualInterestRate;
+        int years;
+
+        printf("\nLoan Amount: ");
+        scanf("%f",&principal);
+        printf("\nPeriod (Years): ");
+        scanf("%d",&years);
+        printf("\nAnnual interest Rate: ");
+        scanf("%f",&annualInterestRate);
+        loan(principal, annualInterestRate, years);
         printf("\nThank You for using our Calculator!\n");
     }
     if(choice==3){

@@ -2,18 +2,7 @@
 #include <stdio.h>
 #include "header.h"
 
-int loan(){
-    float principal;
-    float annualInterestRate;
-    int years;
-
-    printf("\nLoan Amount: ");
-    scanf("%f",&principal);
-    printf("\nPeriod (Years): ");
-    scanf("%d",&years);
-    printf("\nAnnual interest Rate: ");
-    scanf("%f",&annualInterestRate);
-    
+int loan(int principal, float annualInterestRate, int years){
     float i = ((annualInterestRate)/(100))/12;
     int months = years*12;
 
