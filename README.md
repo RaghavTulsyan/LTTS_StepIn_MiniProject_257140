@@ -3,11 +3,14 @@
 ## Folder Structure
 Folder              | Description
 ------------------- | -----------------------------------------
-`1. Planning   `    | Documents about the planning phase
-`2. Requirements`   | Documents detailing requirements and research
-`3. Design`         | Documents specifying design details
-`4. Implementation` | All code and documentation
-`5. Test plan`      | Documents with test plans and procedures
+`1. Requirements`   | Documents detailing requirements and research
+`2. Design`         | Documents specifying design details
+`3. Implementation` | All code and documentation
+`4. Test plan`      | Documents with test plans and procedures
+`5_Report`          | MiniProject Report
+`6_ImagesAndVideos` | Files containing working video and images
+`7_Other`           | Other Supporting Documents
+
 
 ## Contributors List and Summary
 
