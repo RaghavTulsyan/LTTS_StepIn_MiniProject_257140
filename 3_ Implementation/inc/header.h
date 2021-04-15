@@ -25,6 +25,6 @@ int mortgage();
  * @return int 
  */
 
-int loan(int principal, float annualInterestRate, int years);
+float loan(int principal, float annualInterestRate, int years);
 
 #endif
