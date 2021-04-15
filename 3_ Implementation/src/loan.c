@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "header.h"
 
-int loan(int principal, float annualInterestRate, int years){
+float loan(int principal, float annualInterestRate, int years){
     float i = ((annualInterestRate)/(100))/12;
     int months = years*12;
 
@@ -15,5 +15,5 @@ int loan(int principal, float annualInterestRate, int years){
     printf("\nDiscount: %.2f\n",Discount);
     printf("\nMonthly Loan Payment: %.2f\n",loanPaymentAmount);
 
-    return 0;
+    return loanPaymentAmount;
 }
