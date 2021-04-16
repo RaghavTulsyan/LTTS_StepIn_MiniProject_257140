@@ -1,6 +1,6 @@
 # TEST PLAN:
 
-## Table no: High level test plan
+## Table no1: High level test plan
 
 | **Test_ID** | **Description**                                                     | **Exp I/P**                                                    | **Exp O/P**                 | **Actual O/P** | **Type of Test**   |
 |---------|-----------------------------------------------------------------|------------------------------------------------------------|-------------------------|------------|----------------|
@@ -8,7 +8,7 @@
 | H_02    | Test function calculating the loan function            | Values taken as an Argument from main .c      | Loan Payment Amount | SUCCESS    | Scenario Based |
 
 
-## Table no: Low level test plan
+## Table no2: Low level test plan
 
 | **Test ID** | **Description**                                                | **Exp I/P**                               | **Exp O/P** | **Actual O/P** | **Type of test** |
 |-------------|----------------------------------------------------------------|-------------------------------------------|-------------|----------------|------------------|
