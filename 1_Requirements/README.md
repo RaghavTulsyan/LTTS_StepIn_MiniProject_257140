@@ -10,13 +10,21 @@
 - People get all these features all over the internet on different websites related to banking and finances, but all of them proceed furter to provide them with extra details about their packages and plans.
 - This does creates a need of simple Mortgage and Loan Calculator that user can opt for which will work independent of the system and the network.
 
+### Cost
+*  The cost of the project mostly depends on the time spent by the developers to write the code for implementing the functions
+*  The monetary cost is minimal
+*  Applications of the values calculated by the utility can be in a number of fields and areas which can have costs ranging from low for small projects to high for larger and more complex applications.
 
-## Cost and Features
-- The cost of developing this is negligible and there is no need of some hardware or any paid softwares yet.
-- Features include the calculation of Mortgage, its monthly payment schedule and loan repayment amount given the Principal Amount, Annual Interest Rate and Time.
+### Features
+*  Modular program which can be easily modified to include new functions and parts
+*  Simple command line interaction with user, can be developed further for more attractive graphical interface
+*  Easy to utilize commands and output can be used directly in real world applications
 
 ## Defining the System
 <img src="https://github.com/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/blob/main/1_Requirements/System_Architecture.jpg">
+
+*  The program creates multiple functions for calculation of different parameters
+*  Depending on need, more functions can be easily implemented
 
 ## SWOT Analysis
 <img src="https://github.com/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/blob/main/1_Requirements/SWOT%20Analysis.jpg">
@@ -40,13 +48,21 @@
 
 ## High Level Requirements:
 
-| ID   | Description                                                       | Category  | Status |
-|------|-------------------------------------------------------------------|-----------|--------|
-| HR01 | User should be able to calculate Mortgage                         | Technical | TBD-S1 |
-| HR02 | User should be able to calculate Monthly Payment Schedule         | Technical | TBD-S1 |
-| HR03 | User should be able to calculate Loan Repayment Amount            | Technical | TBD-S1 |
+| ID   | Description                                                       | Category  |    Status   |
+|------|-------------------------------------------------------------------|-----------|-------------|
+| HR01 | User should be able to Work with the Calculator Interface         | Technical | Implemented |
+| HR02 | User should be able to calculate Mortgage                         | Technical | Implemented |
+| HR03 | User should be able to calculate Monthly Payment Schedule         | Technical | Implemented |
+| HR04 | User should be able to calculate Loan Repayment Amount            | Technical | Implemented |
+| HR05 | Implement more features and calculator options                    | Technical | Implemented |
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID   | Description                                                              | HLR ID |   Status    |
+|------|--------------------------------------------------------------------------|--------|-------------|
+| LR01 | Display options for User                                                 | HR01   | Implemented |
+| LR02 | Accept user choice                                                       | HR01   | Implemented |
+| LR03 | Accept type of Calculator from user -  Mortgage, Loan                    | HR01   | Implemented |
+| LR04 | For Mortgage Calculator, accept values of Principal, Rate and time       | HR02   | Implemented |
+| LR05 | For loan Calculator, accept values of Principal, Rate and time           | HR03   | Implemented |
+| LR06 | Come up with ideas for more functions required by electronic enthusiasts | HR05   | Future      |
