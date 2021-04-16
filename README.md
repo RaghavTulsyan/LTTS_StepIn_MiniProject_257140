@@ -1,5 +1,7 @@
 # Debt Payment Calculator
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3f42a3e0abe44ed3ae990cde0a9c44cc)](https://www.codacy.com/gh/RaghavTulsyan/LTTS_StepIn_MiniProject_257140/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RaghavTulsyan/LTTS_StepIn_MiniProject_257140&amp;utm_campaign=Badge_Grade)
+
 ## Folder Structure
 Folder              | Description
 ------------------- | -----------------------------------------
