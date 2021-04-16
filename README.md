@@ -17,15 +17,15 @@ Folder              | Description
 
 SF. ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 --------|---------|----------------|----------------|---------------|-------------|--------------
-257140  | Raghav Tulsyan | Feature X, Y etc    |  No     |  No   | No   | No       
+257140  | Raghav Tulsyan | Mortgage and Loan Function Implementation, Diagrams    |  No    |  No   | 8   | 8       
 
 ## Challenges Faced and How Was It Overcome
 
 | ID | Problem                                     | Solution                                                      |
 |----|---------------------------------------------|---------------------------------------------------------------|
-| 1. | Unity Test Case Failing                     | Incorrect Makefile command, changing the code fixed the error |
-| 2. | Problem during function call with structure | Pointer to structure fixed the error                          |
-| 3. | Functions returning very small values led to 0 being displayed on output | Changed function to return larger values and edited the calculation part |
+| 1. | YML files Failing                     | Incorrect folder name, changing the folder name fixed the error |
+| 2. | Problem during function call from main | Reperformed the task with precision and got no error next time                          |
+| 3. | Mortgage function returning some unexpected values | Changed function to return proper values and edited the calculation part |
 
 ## Learning Resources
 1. [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
