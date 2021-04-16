@@ -54,7 +54,7 @@
 | HR02 | User should be able to calculate Mortgage                         | Technical | Implemented |
 | HR03 | User should be able to calculate Monthly Payment Schedule         | Technical | Implemented |
 | HR04 | User should be able to calculate Loan Repayment Amount            | Technical | Implemented |
-| HR05 | Implement more features and calculator options                    | Technical | Implemented |
+| HR05 | Implement more features and calculator options                    | Technical |   Future    |
 
 
 ##  Low level Requirements:
