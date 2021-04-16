@@ -17,7 +17,7 @@
  * @return int 
  */
 
-int mortgage();
+float mortgage(int principal, float annualInterest, int years);
 
 /**
  * @brief Used to trigger the Loan Calculator when chosen by the user.

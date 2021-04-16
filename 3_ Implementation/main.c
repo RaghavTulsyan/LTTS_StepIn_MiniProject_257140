@@ -23,9 +23,41 @@ int main(){
         printf("\nMortgage Calculator\n");
         printf("-------------------");
         printf("\n");
-        mortgage();
+        int principal;
+        float annualInterest;
+        int years;
+
+        
+
+        while (1) {
+            printf("\nPrincipal: ");
+            scanf("%d", &principal);
+            if (principal >= 1000 && principal <= 1000000)
+                break;
+            printf("\nEnter a value between 1000 and 1000000\n");
+        }
+
+        while (1) {
+            printf("\nAnnual Interest Rate: ");
+            scanf("%f", &annualInterest);
+            if (annualInterest >= 1 && annualInterest <= 30) {
+                break;
+            }
+            printf("\nEnter a value between 1 and 30\n");
+        }
+
+        while (1) {
+            printf("\nPeriod (Years): ");
+            scanf("%d", &years);
+            if (years >= 1 && years <= 30) {
+                break;
+            }
+            printf("\nEnter a value between 1 and 30.\n");
+        }
+        mortgage(principal, annualInterest, years);
         printf("\nThank You for using our Calculator!\n");
     }
+
     if(choice==2){
         printf("\nLoan Calculator\n");
         printf("---------------");
