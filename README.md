@@ -11,9 +11,6 @@ Folder              | Description
 `2. Design`         | Documents specifying design details
 `3. Implementation` | All code and documentation
 `4. Test plan`      | Documents with test plans and procedures
-`5_Report`          | MiniProject Report
-`6_ImagesAndVideos` | Files containing working video and images
-`7_Other`           | Other Supporting Documents
 
 
 ## Contributors List and Summary
@@ -21,6 +18,14 @@ Folder              | Description
 SF. ID. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 --------|---------|----------------|----------------|---------------|-------------|--------------
 257140  | Raghav Tulsyan | Feature X, Y etc    |  No     |  No   | No   | No       
+
+## Challenges Faced and How Was It Overcome
+
+| ID | Problem                                     | Solution                                                      |
+|----|---------------------------------------------|---------------------------------------------------------------|
+| 1. | Unity Test Case Failing                     | Incorrect Makefile command, changing the code fixed the error |
+| 2. | Problem during function call with structure | Pointer to structure fixed the error                          |
+| 3. | Functions returning very small values led to 0 being displayed on output | Changed function to return larger values and edited the calculation part |
 
 ## Learning Resources
 1. [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
